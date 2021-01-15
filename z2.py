@@ -10,5 +10,4 @@ new_list = [randint(1, 301) for el in range(1, 20)]
 print("исходный список", new_list)
 
 res_list = [new_list[num] for num in range(1, len(new_list)) if new_list[num] > new_list[num - 1]]
-
 print("Элементы исходного списка, значения которых больше предыдущего элемента:   ", res_list)
