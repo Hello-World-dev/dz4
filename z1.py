@@ -7,5 +7,4 @@ from sys import argv
 script_name, vyrabotka_hours, stavka_per_hour, premiya = argv
 
 res = float(vyrabotka_hours) * float(stavka_per_hour) + float(premiya)
-
 print("ЗП составит: ", res)
